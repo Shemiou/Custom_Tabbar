@@ -23,6 +23,14 @@
     return  [[self alloc] init];
 }
 
++ (id)tabBarWithItems:(NSArray *)items{
+    
+    PYTarBar *tabBar = [PYTarBar tabBar];
+    [tabBar setItems:items];
+    
+    return tabBar;
+}
+
 //懒加载
 - (UIImageView *)background{
     
