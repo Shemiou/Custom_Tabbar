@@ -14,7 +14,7 @@
 //数组中
 @property(nonatomic,retain)NSArray *items;
 + (id)tabBar;
-
++ (id)tabBarWithItems:(NSArray *)items;
 //block方法
 @property(nonatomic,copy)void (^tabbarItemSelected)(NSInteger index);
 
